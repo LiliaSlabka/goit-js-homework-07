@@ -1,6 +1,5 @@
 import { galleryItems } from './gallery-items.js';
 
-
 const galleryContainer = document.querySelector('.gallery')
 
 const renderList = (pictures) => pictures.reduce((acc, picture) => acc + 

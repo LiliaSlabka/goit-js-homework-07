@@ -8,8 +8,7 @@ const renderGalleryList = (pictures) => pictures.reduce((acc, picture) => acc +
 </a> `, '');
 
 const addGalleryItems = (string) => {
-    galleryEl.insertAdjacentHTML('beforeend', renderGalleryList(galleryItems))
-};
+    galleryEl.insertAdjacentHTML('beforeend', renderGalleryList(galleryItems))};
 
 addGalleryItems(renderGalleryList(galleryItems));
 
